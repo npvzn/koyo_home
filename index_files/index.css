@@ -1,4 +1,4 @@
-﻿@charset"utf-8";
+@charset"utf-8";
 
 #a-box {
    text-align: center;
@@ -67,3 +67,25 @@
 
 
 /* 画像の横幅に合わせて記述 */
+
+@media (max-width:600px){
+   #b-box {
+   float: none;
+   position: relative;
+   top: 5px;
+   width: auto;
+   text-align: left;
+   padding: 5px;
+   margin: 5px;
+   text-decoration: none;
+}
+
+#c-box {
+   float: none;
+   position: relative;
+   top: 5px;
+   width: auto;
+   text-align: left;
+   padding: 5px;
+   margin: 5px;
+}
