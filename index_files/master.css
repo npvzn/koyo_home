@@ -85,6 +85,6 @@ li {
 
 @media (min-width:500px){
    p{
-      font-size: 100px;
+      color: red;
    }
 }
