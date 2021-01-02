@@ -1,0 +1,32 @@
+@charset"utf-8";
+
+.table_title   {
+          width: 100%;
+          border-collapse: collapse;
+          font-size: 14px;
+          line-height:0.8em;
+          float: left
+}
+
+.table1 td{
+          background-color:white;
+          text-align: left;
+          padding: 0px;
+}
+
+td.w1{ width:50px; }
+
+td.w2{ width:125px; 
+       letter-spacing:1.33em;
+       height: 5px;
+}
+
+td.w3{ width:670px; }
+
+td.w4{ width:125px; 
+       letter-spacing:0.75em;
+       height:5px;
+}
+
+
+ 

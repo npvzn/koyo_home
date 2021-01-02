@@ -1,0 +1,21 @@
+@charset"utf-8";
+
+.table1   {
+          width: 100%;
+          border-collapse: collapse;
+          font-size: 14px;
+          line-height: 1.2em;
+}
+.table1 th{
+          width:30%;
+          text-align: center;
+          color: #444;
+          background-color: #E0F8E6;
+          border: 3px double black;
+          padding: 4px;
+ }
+.table1 td{
+          background-color:white;
+          border: 3px double black;
+          padding: 4px;
+ }

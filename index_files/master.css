@@ -1,0 +1,84 @@
+﻿@charset"utf-8";
+
+body {
+   background-color: #56b2b2;
+   font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+}
+
+ul,
+li {
+   margin: 0px;
+   padding: 0px;
+   list-style-type: none;
+}
+
+#wrap {
+   background-color: #fff;
+   width: 960px;
+   margin: 0 auto;
+}
+
+#header {
+   padding: 0;
+   margin: 0 auto;
+   font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+   font-weight: 600;
+}
+
+#topheader {
+   padding: 20px 25px 30px;
+   vertical-align: top;
+}
+
+#logoimg {
+   display: inline-block;
+   height: 65px;
+   width: 60px;
+   vertical-align: bottom;
+}
+
+#logotext {
+   display: inline-block;
+   color: #006a6c;
+   font-family: "游明朝","ヒラギノ明朝 Pro", serif;
+   vertical-align: bottom;
+}
+
+#logotext h1 {
+   font-size: 36px;
+   line-height: 1;
+   margin: -8px 0 0 0;
+   padding: 0;
+}
+
+#logotext h2 {
+   font-size: 18px;
+   line-height: 1;
+   margin: 0 0 -8px 0;
+   padding: 0;
+}
+
+#navbar {
+   padding: 0 auto;
+}
+
+#maincontents {
+   height: auto;
+   min-height: 26em;
+   clear: both;
+}
+
+#maincontents h3 {
+   border-left: solid 3px #0c8c8c;
+   padding-left: 5px;
+}
+
+#footer {
+   clear: both;
+   position: relative;
+   top: 5px;
+   width: 930;
+   padding: 15px;
+   background: #006c6c;
+   color: #f5f5f5;
+}

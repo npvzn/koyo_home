@@ -1,0 +1,30 @@
+﻿@charset"utf-8";
+
+div.button1 li {
+        box-shadow: 2px 2px 3px 1px #666;
+    -moz-box-shadow: 2px 2px 3px 1px #666;
+   -webkit-box-shadow: 2px 2px 3px 1px #666;
+   list-style-type:none;
+    width:120px; /* ボタンの幅 */
+    margin: 10px;
+    float: left;
+    text-align:center;
+    background-color: #FFFACD;
+}
+
+div.button1 a {
+    display:block;
+    width:100%;
+    font-size: 13px;
+       /* ボタンの文字の大きさ */    color:black;
+    font-weight:bold;
+    padding: 8px 0px;
+    text-decoration: none; /* メニュー項目の装飾(下線を消す) */
+}
+
+div.button1 a:hover {
+    background-color: #088A85;
+    color:white;
+}
+
+

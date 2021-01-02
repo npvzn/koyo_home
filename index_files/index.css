@@ -1,0 +1,69 @@
+﻿@charset"utf-8";
+
+#a-box {
+   text-align: center;
+   height: 450px;
+}
+
+.slide {
+   height: 450px;
+   width: 100%;
+}
+
+#b-box {
+   float: left;
+   position: relative;
+   top: 5px;
+   width: 30%;
+   text-align: left;
+   padding: 0 0 0 15px;
+   margin: 5px;
+   text-decoration: none;
+}
+
+#c-box {
+   float: right;
+   position: relative;
+   top: 5px;
+   width: 60%;
+   text-align: left;
+   padding: 0px;
+   margin: 5px 15px 0 0;
+}
+
+
+/*h1 {
+   padding: 10px 5px 0px 10px;
+   font-size: 35px;
+   text-align: left;
+   vertical-align: middle;
+   font-family: 'serif', serif;
+}*/
+
+#slideshow {
+   position: relative;
+   width: 960px;
+   /* 画像の横幅に合わせて記述 */
+   height: 333px;
+   /* 画像の高さに合わせて記述 */
+}
+
+#slideshow img {
+   position: absolute;
+   z-index: 8;
+   opacity: 0.0;
+   top: 0px;
+   left: 0px;
+}
+
+#slideshow img.active {
+   z-index: 10;
+   opacity: 1.0;
+}
+
+#slideshow img.last-active {
+   z-index: 9;
+}
+
+
+/* 画像の横幅に合わせて記述 */
