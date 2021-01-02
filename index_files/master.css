@@ -82,9 +82,3 @@ li {
    background: #006c6c;
    color: #f5f5f5;
 }
-
-@media (min-width:500px){
-   p{
-      color: red;
-   }
-}
